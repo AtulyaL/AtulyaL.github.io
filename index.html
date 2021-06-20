@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="goToTop">
+<head>
+    <meta charset="utf-8" />
+    <title>Atulya Lohani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c07a41adef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div pContainer>
+        <nav id="navigation">
+            <h4 id="name">Atulya</h4>
+            <ul id="links">
+
+                <li><a href="#goToTop">Home</a></li>
+                <li><a href="#infoContainer">About me</a></li>
+                <li><a href="#anchor">My projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+
+        </nav>
+        <script>
+            function stickNav() {
+                if (window.pageYOffset >= document.getElementById("navigation").offsetTop) {
+                    document.getElementById("navigation").classList.add("fixed");
+                }
+                else {
+                    document.getElementById("navigation").classList.remove("fixed");
+                }
+
+            }
+            window.onscroll = stickNav();
+        </script>
+        <img id="Atulya" src="seniorYearPicture.png" alt="me" />
+        <h1 id="typewriter"></h1>
+
+        <script>
+            var i = 0;
+            var intro = "Hello, my name is Atulya Lohani; welcome to my website!";
+            function typeWriter() {
+                if (i < intro.length) {
+                    document.getElementById("typewriter").innerHTML += intro.charAt(i);
+                    setTimeout(typeWriter, 50);
+                    i++;
+                }
+            }
+
+            window.onload = typeWriter();
+
+
+        </script>
+        <div id="infoContainer">
+            <h5 id="About"> About me</h5>
+            <p id="Bio">
+                I graduated from Millard West High School in 2021. I will be enrolled at the College of Engineering at Cornell University this fall. My intended major is Computer Science.
+                I like to problem solve, and that is one of the reasons I like CS. I am also interested in math and physics.
+                In my free time, I am usually listening to music, hanging out with family, playing video games or consuming digital content.
+            </p>
+
+        </div>
+
+        <div id="projects">
+            <a id="anchor"></a>
+            <h5 id="projectSub">My projects</h5>
+            <div id="rowOne"><a class="imgLinks" href="https://github.com/AtulyaL/Steganography" target="_blank"> <img class="pictures" src="stego.jpg" alt="steganography" /> </a><a href="https://github.com/AtulyaL/BookAnalysis" target="_blank"><img class="pictures" src="book.jpg" alt="bookAnalyzer" /></a></div>
+            <div id="rowTwo"><a class="imgLinks" href="https://github.com/AtulyaL/Cipher" target="_blank"><img class="pictures" src="encyrpt.jpg" /></a><a class="imgLinks" href="https://github.com/AtulyaL/WeatherBot" target="_blank"><img class="pictures" src="weather.jpg" /></a></div>
+        </div>
+
+
+        <div>
+            <ul id="contact">
+                <li><a href="https://twitter.com/Atulya_L" target="_blank"><i id="tw" class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://github.com/AtulyaL?tab=repositories" target="_blank"><i id="gith" class="fab fa-github-square"></i></a></li>
+                <li><a href="mailto:alohani190@protonmail.com" target="_blank"><i id="email" class="fas fa-envelope-square"></i></a></li>
+
+
+            </ul>
+        </div>
+    </div>
+        <canvas class="background"></canvas>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+        <script>
+
+            window.onload = function () {
+
+                var particles = Particles.init({
+                    selector: ".background",
+                    color: ["#67BCE8"],
+                    connectParticles: true,
+                    maxParticles: 100,
+                    speed: .3,
+                });
+
+            };
+
+
+        </script>
+    
+   
+</body>
+</html>
