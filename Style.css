@@ -185,3 +185,7 @@ a:hover{
     transition: ease-in;
   
 }
+#linked:hover {
+    color: #2867B2;
+    transition:ease-in;
+}
