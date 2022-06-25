@@ -73,9 +73,17 @@ li{
     padding-left:30px;
     padding-right:5px;
 }
+#selfImageContainer{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 #Atulya {
     height:275px;
     width:275px;
+    margin-left:auto;
+    margin-right: auto;
     border-radius: 50% 50% 50% 50%;
     padding-top:120px;
     padding-right:120px;
@@ -89,7 +97,7 @@ li{
     align-items: center;
     display: flex;
     justify-content: space-around;
-    min-height: 80px;
+    min-height: 60px;
     background-color: #807be7;
     width: 100%;
 }
