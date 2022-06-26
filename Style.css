@@ -78,6 +78,8 @@ li{
   margin-left: auto;
   margin-right: auto;
   width:50%;
+  padding-top: 10%;
+  padding-bottom: 5%;
   
 }
 #Atulya {
@@ -85,11 +87,9 @@ li{
     width:275px;
     margin-left:auto;
     margin-right: auto;
+    object-fit: cover;
     border-radius: 50% 50% 50% 50%;
-    padding-top:120px;
-    padding-right:120px;
-    padding-left:120px;
-    padding-bottom:120px;
+    
     
 }
 .fixed {
