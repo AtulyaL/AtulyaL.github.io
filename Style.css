@@ -164,31 +164,28 @@ a:hover{
   }
 
 
-.pictures {
-    height: 350px;
-    width: 350px;
-    position: center;
+
+#contact{
+    list-style:none;
+}
+.contactLinks{
+    display: inline;
+    margin: auto;
     
 }
-.pictures:hover {
-    filter: grayscale();
-    transform:scale(1.1);
-    border-style:solid;
-    border-color:bisque;
-}
-#contact{
-    position:absolute;
-    left:50%;
-    padding:100px;
-    margin:0;
-    transform:translate(-50%,50%);
-    display:flex;
-    list-style:none;
+#contactContainer{
+    display: table;   
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+    margin-bottom: 5%;
     
 }
 
 .fa, .fab, .fad, .fal, .far, .fas {
-    color: aliceblue;
+    display:inline-block;
+    color: azure;
     font-size: 50px;
     
 }
@@ -197,15 +194,15 @@ a:hover{
     transition:ease-in;
 }
 #gith:hover {
-    color: #4078c0;
+    color: #1DA1F2;
     transition: ease-in;
 }
 #email:hover {
-    color: #f3e5ab;
+    color: #1DA1F2;
     transition: ease-in;
   
 }
 #linked:hover {
-    color: #2867B2;
+    color: #1DA1F2;
     transition:ease-in;
 }
