@@ -146,6 +146,7 @@ a:hover{
     font-size: 25px;
     color: aquamarine;
     padding: 1.25rem;
+    margin-bottom: 5%;
 }
 #skillsContainer{
   margin-left: auto;
