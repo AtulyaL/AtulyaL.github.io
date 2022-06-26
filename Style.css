@@ -170,9 +170,15 @@ a:hover{
     list-style:none;
 }
 .contactLinks{
-    display: inline;
+    display: inline-flex;
     margin: auto;
     
+}
+#linkdin{
+    padding-left: 0px;
+}
+#email{
+    padding-right: 0px;
 }
 #contactContainer{
     display: table;   
