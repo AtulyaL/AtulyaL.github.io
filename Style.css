@@ -79,6 +79,7 @@ li{
   margin-right: auto;
   width:50%;
   padding-top: 10%;
+  text-align: center;
   padding-bottom: 5%;
   
 }
@@ -139,21 +140,29 @@ a:hover{
     color:azure;
 }
 
-#projectSub {
+#skillsSub {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: aquamarine;
-    padding-bottom:30px;
+    padding: 1.25rem;
 }
-#projects {
-    
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-    display:inline-block;
-    width:100%;
+#skillsContainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
+.icon-card {
+    background-color: aliceblue;
+    width: 27.5%;
+    height: 27.5%;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 1.5%;
+    margin: 1%;
+  }
+
 
 .pictures {
     height: 350px;
