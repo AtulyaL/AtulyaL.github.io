@@ -1,9 +1,10 @@
-﻿*{
-    padding:0px;
-   
-    margin:0px;
-    
+﻿* {
+    padding: 0px;
+
+    margin: 0px;
+
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -13,21 +14,26 @@ body {
     animation: gradient 15s ease infinite;
     align-items: center;
 }
-@keyframes gradient{
-    0%{
-        background-position:0 50%;
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
     }
-    50%{
-        background-position:100% 50%;
+
+    50% {
+        background-position: 100% 50%;
     }
-    100%{
-        background-position:0 50%;
+
+    100% {
+        background-position: 0 50%;
     }
 }
+
 #pContainer {
     max-width: 100%;
     margin: 0 auto;
 }
+
 .background {
     position: absolute;
     top: 0;
@@ -36,13 +42,17 @@ body {
     right: 0;
     z-index: -1;
 }
+
 html {
     scroll-behavior: smooth;
 }
-html, body {
+
+html,
+body {
     margin: 0;
     min-height: 100%;
 }
+
 #name {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -53,48 +63,55 @@ html, body {
     letter-spacing: 2px;
     top: 100px;
 }
-#navigation{
-    z-index:1;
+
+#navigation {
+    z-index: 1;
 }
+
 #links {
-    padding-left:150px;
+    padding-left: 150px;
     margin-right: 0px;
     display: flex;
     list-style: none;
 
 }
+
 #typewriter {
     color: wheat;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    text-align:center;
+    text-align: center;
 }
-li{
-    padding-left:30px;
-    padding-right:5px;
+
+li {
+    padding-left: 30px;
+    padding-right: 5px;
 }
-#selfImageContainer{
+
+#selfImageContainer {
     display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width:50%;
-  padding-top: 10%;
-  text-align: center;
-  padding-bottom: 5%;
-  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+
 }
+
 #Atulya {
-    height:275px;
-    width:275px;
-    margin-left:auto;
+    height: 275px;
+    width: 275px;
+    margin-left: auto;
     margin-right: auto;
     object-fit: cover;
     border-radius: 50% 50% 50% 50%;
-    
-    
+
+
 }
+
 .fixed {
-    position:fixed;
+    position: fixed;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     display: flex;
@@ -103,42 +120,49 @@ li{
     background-color: #807be7;
     width: 100%;
 }
+
 #About {
-    text-align:center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size:25px;
-    margin-bottom:4%;
-    color:aquamarine;
+    font-size: 25px;
+    margin-bottom: 4%;
+    color: aquamarine;
 }
+
 #Bio {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    color:aliceblue;
-    text-align:center;
-  
+    color: aliceblue;
+    text-align: center;
+
 }
-#infoContainer{
-    padding-top:400px;
-    padding-right:33%;
-    padding-left:33%;
-    padding-bottom:350px;
+
+#infoContainer {
+    padding-top: 400px;
+    padding-right: 33%;
+    padding-left: 33%;
+    padding-bottom: 350px;
 }
+
 #anchor {
     display: block;
     top: -100px;
     position: relative;
-    visibility:hidden;
+    visibility: hidden;
 }
-a{
-    text-decoration:none;
-    color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }
+
 a:visited {
-        text-decoration: none;
-        color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
-a:hover{
-    color:azure;
+
+a:hover {
+    color: azure;
 }
 
 #skillsSub {
@@ -149,17 +173,20 @@ a:hover{
     padding: 1.25rem;
     margin-bottom: 5%;
 }
-#skillsContainer{
+
+#skillsContainer {
     max-width: 50%;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
-  
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+
 }
-#rowOne{
-    padding:0%;
-    margin:0;
+
+#rowOne {
+    padding: 0%;
+    margin: 0;
 }
+
 .icon-card {
     background-color: aliceblue;
     width: 15.5%;
@@ -167,57 +194,71 @@ a:hover{
     border-radius: 11px;
     padding: 1.5%;
     margin: 1.5%;
-    filter:drop-shadow(3px 3px 3px black)
-  }
-:hover.icon-card{
+    filter: drop-shadow(3px 3px 3px black)
+}
+
+:hover.icon-card {
     filter: brightness(1.15);
 }
 
 
-#contact{
-    list-style:none;
+#contact {
+    list-style: none;
 }
-.contactLinks{
+
+.contactLinks {
     display: inline-flex;
     margin: auto;
-    
+
 }
-#linkdin{
+
+#linkdin {
     padding-left: 0px;
 }
-#email{
+
+#email {
     padding-right: 0px;
 }
-#contactContainer{
-    display: table;   
+
+#contactContainer {
+    display: table;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 17%;
     margin-bottom: 2.5%;
-    
+
 }
 
-.fa, .fab, .fad, .fal, .far, .fas {
-    display:inline-block;
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    display: inline-block;
     color: azure;
     font-size: 50px;
-    
+
 }
+
 #tw:hover {
     color: #1DA1F2;
-    transition:ease-in;
+    transition: ease-in;
 }
+
 #gith:hover {
     color: #1DA1F2;
     transition: ease-in;
 }
+
 #email:hover {
     color: #1DA1F2;
     transition: ease-in;
-  
+
 }
+
 #linked:hover {
     color: #1DA1F2;
-    transition:ease-in;
+    transition: ease-in;
 }
